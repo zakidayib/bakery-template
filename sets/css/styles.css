@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    
+}
+.navbar .logo img{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 50px  50px;
+}
+
+.navbar ul li{
+    margin-left: 30px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transform: all .2s;
+    -webkit-transform: all .2s;
+    -moz-transform: all .2s;
+    -ms-transform: all .2s;
+    -o-transform: all 0.5s;
+}
+
+.navbar ul li a:hover{
+    /* text-decoration: underline; */
+    color: brown;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+
+header .content{
+    width: 50%;
+    
+    text-align: center;
+    color: white;
+    position: relative;
+    margin:100px auto;
+    
+}
+
+
+
+.learn , .contact{
+    padding: 20px 40px;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+
+.headbtn{
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    bottom: 10px;
+    
+
+}
+.headbtn .contact{
+    background: none;
+    border: 2px solid white;
+    color: white;
+   
+}
+.headbtn .contact:hover{
+    background-color: white;
+    color: black;
+}
+.headbtn .learn{
+    background: rgb(141,121,88);
+    border: none;
+
+    
+}
+
+.headbtn .learn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* 
+###############################################
+about
+##############################################
+*/
+
+.about{
+    color: black;
+    /* background-color: aqua; */
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 100px auto;
+    
+   
+}
+.about .figure{
+    
+    /* background-color: brown; */
+    width: 50%;
+    
+   
+}
+.about .figure img{
+    width: 90%;
+    
+}
+.about .content{
+    color: black;
+    /* background-color: blueviolet; */
+    padding-top: 0%;
+}
+
+.content{
+    width: 50%;
+    
+    /* text-align: center; */
+    color: white;
+    position: relative;
+    padding-left: 20px;
+    
+}
+
+.content h3{
+    font-family: "Alegreya Sans";
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.content h1 {
+    font-family: Alegreya;
+    font-size: 80px;
+    padding: 10px 0;
+    margin: 20px 0;
+
+}
+.content p {
+    font-family: "Alegreya sans";
+    font-size: 22px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+
+.about .content h2{
+   margin-bottom: 40px;
+}
+.content ul{
+    list-style-type: none;
+}
+.content ul li{
+    margin-top: 30px;
+    
+}
+.content ul li span{
+    margin-right: 30px;
+    
+} 
+
+.about .content ul li span i{
+    background-color: #c1ab84;
+   padding: 10px;
+   border-radius: 50%;
+   color: white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+
+} 
+
+/* ###################################### */
+/* location */
+/* ##################################### */
+
+.location{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 100px auto;
+    background-color: #eee;
+    padding: 7% 5%;
+}
+
+.location .content{
+    color: black;
+}
+.location .figlocation{
+    width: 50%;
+    padding-left: 40px;
+}
+
+.location .figlocation img{
+    width: 90%;
+    
+}
+
+.location .content h2{
+    margin-bottom: 30px;
+}
+
+.location .content p{
+    margin-bottom: 30px;
+}
+
+
+/* baking */
+
+.baking{
+    text-align: center;
+    margin: 0px auto 100px;
+}
+.baking h2, .baking p {
+    margin-bottom: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:20px auto;
+
+}
+.boxes .box{
+    text-align: center;
+    padding: 10px;
+    margin-left: 2px;
+}
+.boxes .box img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.boxes .box p{
+    margin-top: 20px;
+    line-height: 2;
+    width: 95%;
+}
+
+
+/* ################################### */
+/* contact */
+/* ################################### */
+.contactSection{
+    background-color: #eee;
+    display: flex;
+    padding: 100px 100px 20px;
+    justify-content: space-between;
+}
+
+.contactSection .content{
+    color: black;
+    width: 45%;
+}
+
+.contactSection .content h2{
+    margin-bottom: 30px;
+}
+
+.contactSection .content p{
+    margin-bottom: 30px;
+}
+
+.contactSection .content h4{
+    margin-bottom: 50px;
+}
+
+.contactSection .content ul li span i{
+    background-color: #c1ab84;
+   padding: 10px;
+   border-radius: 50%;
+   color: white;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+
+} 
+.contactSection .content ul li{
+ font-size: 15px;
+ margin-top: 15px;
+
+} 
+
+/* ############################### */
+/* near footer */
+/* ############################## */
+
+.nearfoot{
+    background-color: rgb(64,61,56);
+    background-image: url(sets/images/contact-details-map.png);
+    /* background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 100px;
+    font-size: 16px;
+}
+
+.nearfoot .nearabout{
+    width:30% ;
+    
+}
+
+.nearfoot .nearabout h3{
+    margin-bottom: 30px;
+    
+}
+
+.nearfoot .nearabout p{
+    font-family: "Alegreya sans";
+    font-size: 16px;
+    line-height: 1.7;
+    padding-bottom: 30px;
+    color: #ddd;
+    
+}
+.nearfoot .special h3{
+    margin-bottom: 30px;
+}
+
+.nearfoot .special{
+    margin-left: 20px;
+}
+.nearfoot .special ul{
+    list-style-type: none;
+}
+
+.nearfoot .special ul li {
+    font-family: "Alegreya sans";
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.7;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.nearfoot .special ul li::before{
+    content: ">";
+    padding: 3px;
+}
+
+
+
+.nearfoot .opening-hours h3{
+    margin-bottom: 30px;
+}
+
+.nearfoot .opening-hours{
+    margin-left: 20px;
+}
+.nearfoot .opening-hours ul{
+    list-style-type: none;
+}
+
+.nearfoot .opening-hours ul li {
+    font-family: "Alegreya sans";
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.7;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+.nearfoot .opening-hours ul li::before{
+    content: ">";
+    padding: 3px;
+}
+
+
+
+.nearfoot .contact-details{
+    margin-left: 20px;
+}
+
+.nearfoot .contact-details h3{
+    margin-bottom: 30px;
+}
+
+.nearfoot .contact-details ul{
+    list-style-type: none;
+}
+
+.nearfoot .contact-details ul li {
+    font-family: "Alegreya sans";
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.7;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.nearfoot .contact-details ul li::before {
+   content: ">";
+   padding:3px ;
+}
+
+/* ####################### */
+/* footer */
+/* ######################### */
+.footer{
+    background-color: #353330;
+    color: #ddd;
+    padding-top: 100px;
+    
+}
+
+.footer .logo{
+    margin-left: 37%;
+    margin-bottom: 10px;
+    
+
+}
+
+.footer .copyright{
+    margin-left: 37%;
+    margin-bottom: 10px;
+    
+}
+
+.footer .social{
+    margin-left: 40%;
+
+}
+.footer .social i{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #444;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer .social  .fa-facebook-f:hover{
+    background-color: blue;
+}
+
+.footer .social  .fa-google-plus-g:hover{
+    background-color: red;
+}
+
+.footer .social  .fa-linkedin-in:hover{
+    background-color: skyblue;
+}
+
+.footer .social  .fa-twitter:hover{
+    background-color: skyblue;
+}
+
+
+
+
+
+
